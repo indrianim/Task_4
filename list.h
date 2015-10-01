@@ -35,7 +35,10 @@ struct List
     address first,last;
 };
 
+void createList(List &);
 
+address alokasi(infotype );
+void dealokasi(address &);
 
 address findElm(List, infotype );
 int countElm(List L);
